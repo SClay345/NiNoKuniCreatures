@@ -1,4 +1,4 @@
-# Ni No Kuni Creature API
+# Ni No Kuni Familiar API
 While playing the game I noticed there wasn't very good documentation and the info was all scattered so I decided to put it all into an API for anyone to use.
 
 **Link to project:** TBD
@@ -9,9 +9,12 @@ While playing the game I noticed there wasn't very good documentation and the in
 
 **Tech used:**  JavaScript, Node, Express
 
-Steps to get this running Locally:
-1. NPM init
+Steps to run locally:
+1. npm init
+2. npm install express --save
+3. npm install cors
 
+Run via npm server.js
 ## Optimizations
 TBD
 
