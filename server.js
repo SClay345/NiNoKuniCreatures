@@ -117,7 +117,7 @@ const familiar = {
     },
     'mite' : {
         'Name': 'Mite',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/74/013_mite.png/revision/latest?cb=20140604174735',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/74/013_mite.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Ugly Duckling Isle'],
         'Metamorph':['Mighty Mite'],
