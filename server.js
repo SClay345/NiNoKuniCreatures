@@ -25,13 +25,13 @@ app.get('/api/:creatureName', (res, req)=>  {
     if(creature[name]){
         res.json(creature[name])
     } else {
-        res.json(creature[unknown])
+        res.json(creature['unknown'])
     }
     
     
 })
 
 
-app.listen(PORT, ()=> {
+app.listen(process.env.PORT || PORT, ()=> {
     console.log(`Server is running on port ${PORT}`)
 })
