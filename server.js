@@ -9,7 +9,7 @@ app.use(cors())
 const familiar = {
     'little bighorn' : {
         'Name': 'Little Bighorn',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c8/001_little_bighorn.png/revision/latest?cb=20140604174729',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c8/001_little_bighorn.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Skull Mountain'],
         'Metamorph':['Bighorn'],
@@ -18,7 +18,7 @@ const familiar = {
     }, 
     'bighorn' : {
         'Name': 'Bighorn',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/88/002_bighorn.png/revision/latest?cb=20140604174730',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/88/002_bighorn.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Smoky Foothills'],
         'Metamorph':['Batterhorn', 'Splatterhorn'],
@@ -27,7 +27,7 @@ const familiar = {
     },
     'batterhorn' : {
         'Name': 'Batterhorn',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/1b/003_batterhorn.png/revision/latest?cb=20140604174732',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/1b/003_batterhorn.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Nazcaä'],
         'Metamorph':['none'],
@@ -36,7 +36,7 @@ const familiar = {
     },
     'splatterhorn' : {
         'Name': 'Splatterhorn',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/7e/004_splatterhorn.png/revision/latest?cb=20140604174732',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/7e/004_splatterhorn.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Ivory Tower'],
         'Metamorph':['none'],
@@ -45,7 +45,7 @@ const familiar = {
     },
     'purrloiner' : {
         'Name': 'Purrloiner',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d8/005_purrloiner.png/revision/latest?cb=20140604174733',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d8/005_purrloiner.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['The Bayous-W'],
         'Metamorph':['Cutpurrse'],
@@ -54,7 +54,7 @@ const familiar = {
     },
     'cutpurrse' : {
         'Name': 'Cutpurrse',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c3/006_cutpurrse.png/revision/latest?cb=20140604174733',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c3/006_cutpurrse.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Skull Mountain'],
         'Metamorph':['Puss in Bouts', 'Puss in Boats'],
@@ -63,7 +63,7 @@ const familiar = {
     },
     'puss in bouts' : {
         'Name': 'Puss in Bouts',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d4/008_puss_in_bouts.png/revision/latest?cb=20140604174734',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d4/008_puss_in_bouts.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Billy Goats Bluff'],
         'Metamorph':['none'],
@@ -72,7 +72,7 @@ const familiar = {
     },
     'puss in boats' : {
         'Name': 'Puss in Boats',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/79/007_puss_in_boats.png/revision/latest?cb=20140604174734',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/79/007_puss_in_boats.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['The Sea: Southwest of the Spring Realm'],
         'Metamorph':['none'],
@@ -81,7 +81,7 @@ const familiar = {
     },
     'hog-goblin' : {
         'Name': 'Hog-Goblin',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/f/f5/009_hog-goblin.png/revision/latest?cb=20140604174734',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/f/f5/009_hog-goblin.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['The Bayous-W'],
         'Metamorph':['Gobfather'],
@@ -90,7 +90,7 @@ const familiar = {
     },
     'gobfather' : {
         'Name': 'Gobfather',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/9/90/010_gobfather.png/revision/latest?cb=20140604174734',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/9/90/010_gobfather.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Skull Mountain'],
         'Metamorph':['Gobspeed', 'Gobforsaken'],
@@ -99,7 +99,7 @@ const familiar = {
     },
     'gobspeed' : {
         'Name': 'Gobspeed',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/5/54/011_gobspeed.png/revision/latest?cb=20140604174735',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/5/54/011_gobspeed.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Billy Goats Bluff'],
         'Metamorph':['none'],
@@ -108,7 +108,7 @@ const familiar = {
     },
     'gobforsaken' : {
         'Name': 'Gobforsaken',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/a/a2/012_gobforsaken.png/revision/latest?cb=20140604174735',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/a/a2/012_gobforsaken.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Nevermore'],
         'Metamorph':['none'],
@@ -126,7 +126,7 @@ const familiar = {
     },
     'mighty mite' : {
         'Name': 'Mighty Mite',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/cd/014_mighty_mite.png/revision/latest?cb=20140604174736',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/cd/014_mighty_mite.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Billy Goats Bluff'],
         'Metamorph':['Dynamite', 'Mermite'],
@@ -135,7 +135,7 @@ const familiar = {
     },
     'dynamite' : {
         'Name': 'Dynamite',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/81/015_dynamite.png/revision/latest?cb=20140604174736',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/81/015_dynamite.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['None/Metamorph'],
         'Metamorph':['none'],
@@ -144,7 +144,7 @@ const familiar = {
     },
     'mermite' : {
         'Name': 'Mermite',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/2/22/016_mermite.png/revision/latest?cb=20140604174737',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/2/22/016_mermite.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Ivory Tower'],
         'Metamorph':['none'],
@@ -153,7 +153,7 @@ const familiar = {
     },
     'hurly' : {
         'Name': 'Hurly',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/f/fc/017_hurly.png/revision/latest?cb=20140604174737',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/f/fc/017_hurly.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['No Longer Mine'],
         'Metamorph':['Burly Hurly'],
@@ -162,7 +162,7 @@ const familiar = {
     },
     'burly hurly' : {
         'Name': 'Burly Hurly',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c2/018_burly_hurly.png/revision/latest?cb=20140604174737',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c2/018_burly_hurly.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['Billy Goats Bluff'],
         'Metamorph':['Hurlcules', 'Hurlabaloo'],
@@ -171,7 +171,7 @@ const familiar = {
     },
     'hurlcules' : {
         'Name': 'Hurlcules',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/3/36/019_hurlcules.png/revision/latest?cb=20140604174738',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/3/36/019_hurlcules.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['None/Metamorph'],
         'Metamorph':['none'],
@@ -180,7 +180,7 @@ const familiar = {
     },
     'hurlabaloo' : {
         'Name': 'Hurlabaloo',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/2/2e/020_hurlabaloo.png/revision/latest?cb=20140604174738',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/2/2e/020_hurlabaloo.png',
         'FavoriteFoods' : 'Chocolate',
         'Location': ['None/Metamorph'],
         'Metamorph':['none'],
@@ -189,7 +189,7 @@ const familiar = {
     },
     'ruff' : {
         'Name': 'Ruff',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/6/60/021_ruff.png/revision/latest?cb=20140604183328',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/6/60/021_ruff.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Rolling Hills'],
         'Metamorph':['Ruffian'],
@@ -198,7 +198,7 @@ const familiar = {
     },
     'ruffian' : {
         'Name': 'Ruffian',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/4/49/022_ruffian.png/revision/latest?cb=20140604183329',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/4/49/022_ruffian.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Old Smoky'],
         'Metamorph':['Gruffian', 'Scruffian'],
@@ -207,7 +207,7 @@ const familiar = {
     },
     'gruffian' : {
         'Name': 'Gruffian',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/0/0f/023_gruffian.png/revision/latest?cb=20140604183329',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/0/0f/023_gruffian.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['None/Metamorph'],
         'Metamorph':['None'],
@@ -216,7 +216,7 @@ const familiar = {
     },
     'scruffian' : {
         'Name': 'Scruffian',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c6/024_scruffian.png/revision/latest?cb=20140604183330',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c6/024_scruffian.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Nazcaä'],
         'Metamorph':['None'],
@@ -225,7 +225,7 @@ const familiar = {
     },
     'rhinosaur' : {
         'Name': 'Rhinosaur',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/3/38/025_rhinosaur.png/revision/latest?cb=20140604183330',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/3/38/025_rhinosaur.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Rolling Hills'],
         'Metamorph':['Rhinosnore'],
@@ -234,7 +234,7 @@ const familiar = {
     },
     'rhinosnore' : {
         'Name': 'Rhinosnore',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/1f/026_rhinosnore.png/revision/latest?cb=20140604183331',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/1f/026_rhinosnore.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['The Bayous-W'],
         'Metamorph':['Rhinobore', 'Rhinosaw'],
@@ -243,7 +243,7 @@ const familiar = {
     },
     'rhinobore' : {
         'Name': 'Rhinobore',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/2/2b/027_rhinobore.png/revision/latest?cb=20140604183331',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/2/2b/027_rhinobore.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Rolling Hills-W'],
         'Metamorph':['None'],
@@ -252,7 +252,7 @@ const familiar = {
     },
     'rhinosaw' : {
         'Name': 'rhinosaw',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/4/46/028_rhinosaw.png/revision/latest?cb=20140604183332',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/4/46/028_rhinosaw.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Miasma Marshes'],
         'Metamorph':['None'],
@@ -261,7 +261,7 @@ const familiar = {
     },
     'jabber' : {
         'Name': 'Jabber',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d1/029_jabber.png/revision/latest?cb=20140604183332',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d1/029_jabber.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Deep Dark Woods'],
         'Metamorph':['Stabber'],
@@ -270,7 +270,7 @@ const familiar = {
     },
     'stabber' : {
         'Name': 'Stabber',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/77/030_stabber.png/revision/latest?cb=20140604183333',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/77/030_stabber.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Teeheeti'],
         'Metamorph':['Stabberwocky', 'Jabberguppy'],
@@ -279,7 +279,7 @@ const familiar = {
     },
     'stabberwocky' : {
         'Name': 'Stabberwocky',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/9/99/031_stabberwocky.png/revision/latest?cb=20140604183333',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/9/99/031_stabberwocky.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Rolling Hills-W'],
         'Metamorph':['none'],
@@ -288,7 +288,7 @@ const familiar = {
     },
     'jabberguppy' : {
         'Name': 'Jabberguppy',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/cd/032_jabberguppy.png/revision/latest?cb=20140604183334',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/cd/032_jabberguppy.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Winter Wonderlands-N'],
         'Metamorph':['none'],
@@ -297,7 +297,7 @@ const familiar = {
     },
     'baatender' : {
         'Name': 'Baatender',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/b/b1/033_baatender.png/revision/latest?cb=20140604183334',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/b/b1/033_baatender.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Rolling Hills'],
         'Metamorph':['Baabarian'],
@@ -306,7 +306,7 @@ const familiar = {
     },
     'baabarian' : {
         'Name': 'Baabarian',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c9/034_baabarian.png/revision/latest?cb=20140604183335',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c9/034_baabarian.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Friday Island'],
         'Metamorph':['Baabie', 'Baarndancer'],
@@ -315,7 +315,7 @@ const familiar = {
     },
     'baabie' : {
         'Name': 'Baabie',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/3/30/035_baabie.png/revision/latest?cb=20140604183335',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/3/30/035_baabie.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Rolling Hills-W'],
         'Metamorph':['none'],
@@ -324,7 +324,7 @@ const familiar = {
     },
     'baarndancer' : {
         'Name': 'Baarndancer',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/81/036_baarndancer.png/revision/latest?cb=20140604183339',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/81/036_baarndancer.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Nazcaä'],
         'Metamorph':['none'],
@@ -333,7 +333,7 @@ const familiar = {
     },
     'sore boar' : {
         'Name': 'Sore Boar',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/5/51/037_sore_boar.png/revision/latest?cb=20140604183339',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/5/51/037_sore_boar.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Golden Grove'],
         'Metamorph':['Crashing Boar'],
@@ -342,7 +342,7 @@ const familiar = {
     },
     'crashing boar' : {
         'Name': 'Crashing Boar',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/0/0e/038_crashing_boar.png/revision/latest?cb=20140604183339',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/0/0e/038_crashing_boar.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['The Pig Iron Plain'],
         'Metamorph':['Hyperboar', 'Full Boar'],
@@ -351,7 +351,7 @@ const familiar = {
     },
     'hyperboar' : {
         'Name': 'Hyperboar',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/8a/039_hyperboar.png/revision/latest?cb=20140604183340',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/8a/039_hyperboar.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Billy Goats Bluff'],
         'Metamorph':['none'],
@@ -360,7 +360,7 @@ const familiar = {
     },
     'full boar' : {
         'Name': 'Full Boar',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/1a/040_full_boar.png/revision/latest?cb=20140604183340',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/1a/040_full_boar.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Nazcaä'],
         'Metamorph':['none'],
@@ -369,7 +369,7 @@ const familiar = {
     },
     'inphant' : {
         'Name': 'Inphant',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d1/041_inphant.png/revision/latest?cb=20140604185301',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d1/041_inphant.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Rolling Hills-E'],
         'Metamorph':['Psychophant'],
@@ -378,7 +378,7 @@ const familiar = {
     },
     'pyschophant' : {
         'Name': 'Psychophant',
-        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d1/041_inphant.png/revision/latest?cb=20140604185301',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d1/041_inphant.png',
         'FavoriteFoods' : 'Ice Cream',
         'Location': ['Rolling Hills-E'],
         'Metamorph':['Psychophant'],
