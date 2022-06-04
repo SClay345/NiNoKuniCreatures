@@ -871,10 +871,479 @@ const familiar = {
         'morphLevel': 0,
         'maxLevel': 99
     },
+    'tu-whit' : {
+        'Name': 'Tu-Whit',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/5/5f/101_tu-whit.png',
+        'FavoriteFoods' : 'Ice Cream',
+        'Location': ['The Genies Steps'],
+        'Metamorph':['Tu-Whoo'],
+        'morphLevel': 14,
+        'maxLevel': 42
+    },
+    'tu-woo' : {
+        'Name': 'Tu-Whoo',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/1a/102_tu-whoo.png',
+        'FavoriteFoods' : 'Ice Cream',
+        'Location': ['Friday Island'],
+        'Metamorph':['Sharp-Hooter', 'Hooting-Star'],
+        'morphLevel': 34,
+        'maxLevel': 68
+    },
+    'sharp-hooter' : {
+        'Name': 'Bushido Bantam',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/9/97/103_sharp-hooter.png',
+        'FavoriteFoods' : 'Ice Cream',
+        'Location': ['Ivory Tower'],
+        'Metamorph':['none'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'hooting-star' : {
+        'Name': 'Hooting-Star',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/e/e6/104_hotting-star.png',
+        'FavoriteFoods' : 'Ice Cream',
+        'Location': ['none'],
+        'Metamorph':['none'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'floret' : {
+        'Name': 'Floret',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/5/57/105_floret.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Shimmering Sands-W'],
+        'Metamorph':['Flummox Floret'],
+        'morphLevel': 16,
+        'maxLevel': 35
+    },
+    'flummox floret' : {
+        'Name': 'Flummox Floret',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/1e/106_flummox_floret.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Shipwreck Shore'],
+        'Metamorph':['Horrid Floret', 'Florid Floret'],
+        'morphLevel': 35,
+        'maxLevel': 55
+    },
+    'horrid floret' : {
+        'Name': 'Horrid Floret',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/a/a0/107_horrid_floret.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Russet Island'],
+        'Metamorph':['none'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'florid floret' : {
+        'Name': 'Florid Floret',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/f/f1/108_florid_floret.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Nazcaä'],
+        'Metamorph':['none'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'rabbot' : {
+        'Name': 'Rabbot',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/e/e5/109_rabbot.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Ding Dong Well'],
+        'Metamorph':['Jackrabbot '],
+        'morphLevel': 18,
+        'maxLevel': 32
+    },
+    'jackrabbot' : {
+        'Name': 'Jackrabbot',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/3/34/110_jackrabbot.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['The Pig Iron Plain'],
+        'Metamorph':['Whackrabbot', 'Hackrabbot'],
+        'morphLevel': 34,
+        'maxLevel': 52
+    },
+    'whackrabbot' : {
+        'Name': 'Whackrabbot',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/6/64/111_whackrabbot.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Shipwreck Shore'],
+        'Metamorph':['none'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'hackrabbot' : {
+        'Name': 'Hackrabbot',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/da/112_hackrabbot.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Billy Goats Bluff'],
+        'Metamorph':['none'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'tyke' : {
+        'Name': 'Tyke',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/9/9a/113_tyke.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Golden Grove'],
+        'Metamorph':['Spike Tyke'],
+        'morphLevel': 16,
+        'maxLevel': 42
+    },
+    'spike tyke' : {
+        'Name': 'Spike Tyke',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/6/69/114_spike_tyke.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Teeheeti'],
+        'Metamorph':['Psych Tyke', 'Pike Tyke'],
+        'morphLevel': 33,
+        'maxLevel': 62
+    },
+    'psych tyke' : {
+        'Name': 'Psych Tyke',
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/b/b8/115_psych_tyke.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Rolling Hills-W'],
+        'Metamorph':['none'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'pike tyke' : {
+        'Name': 'Pike Tyke' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/7c/116_pike_tyke.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Spindle'],
+        'Metamorph':['none'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'turbandit' : {
+        'Name': 'Turbandit' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/7d/117_turbandit.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Shimmering Sands-W'],
+        'Metamorph':['Turburn'],
+        'morphLevel': 12,
+        'maxLevel': 42
+    },
+    'turburn' : {
+        'Name': 'Turburn' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/15/118_turburn.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['The Genies Steps'],
+        'Metamorph':['Turban Myth', 'Turban Legend'],
+        'morphLevel': 32,
+        'maxLevel': 68
+    },
+    'turban myth' : {
+        'Name': 'Turban Myth' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/5/50/119_turban_myth.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Shipwreck Shore'],
+        'Metamorph':['none'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'turban legend' : {
+        'Name': 'Turban Legend' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/df/120_turban_legend.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Glittering Grotto'],
+        'Metamorph':['none'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'idler' : {
+        'Name': 'Idler' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/a/a0/121_idler.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['none'],
+        'Metamorph':['Wild Idler'],
+        'morphLevel': 18,
+        'maxLevel': 34
+    },
+    'wild idler' : {
+        'Name': 'Wild Idler' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/6/60/122_wild_idler.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['none'],
+        'Metamorph':['All-Seeing Idler', 'Evil Idler'],
+        'morphLevel': 33,
+        'maxLevel': 66
+    },
+    'all-seeing idler' : {
+        'Name': 'All-Seeing Idler' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/4/49/123_all-seeing_idler.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['none'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'evil idler' : {
+        'Name': 'Evil Idler' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/4/4b/124_evil_idler.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Old Smoky'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'small fry' : {
+        'Name': 'Small Fry' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/0/09/125_small_fry.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Old Smoky'],
+        'Metamorph':['Deep Fry'],
+        'morphLevel': 14,
+        'maxLevel': 28
+    },
+    'deep fry' : {
+        'Name': 'Deep Fry' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/5/52/126_deep_fry.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Old Smoky'],
+        'Metamorph':['Firefry', 'Flash Fry'],
+        'morphLevel': 30,
+        'maxLevel': 52
+    },
+    'firefry' : {
+        'Name': 'Firefry' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/0/09/127_firefry.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Road to Ruin'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'flash fry' : {
+        'Name': 'Flash Fry' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/5/5b/128_flash_fry.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['None'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'dinkey' : {
+        'Name': 'Dinkey' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/9/9a/129_dinkey.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['The Barrens'],
+        'Metamorph':['Turnkey'],
+        'morphLevel': 17,
+        'maxLevel': 32
+    },
+    'turnkey' : {
+        'Name': 'Turnkey' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/2/26/130_turnkey.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Nevermore'],
+        'Metamorph':['Master Key', 'Don Key'],
+        'morphLevel':27,
+        'maxLevel': 48
+    },
+    'master key' : {
+        'Name': 'Master Key' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d2/131_master_key.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['None'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'don key' : {
+        'Name': 'Don Key' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/3/3b/132_don_key.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['None'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'spitoo' : {
+        'Name': 'Spitoo' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/a/a3/133_spitoo.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Deep Dark Wood'],
+        'Metamorph':['Spitooligan'],
+        'morphLevel': 19,
+        'maxLevel': 44
+    },
+    'spitooligan' : {
+        'Name': 'Spitooligan' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/83/134_spitooligan.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Skull Mountain'],
+        'Metamorph':['Lickety-Spitoo', 'Sniper Spitoo'],
+        'morphLevel': 37,
+        'maxLevel': 59
+    },
+    'lickety-spitoo' : {
+        'Name': 'Lickety-Spitoo' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/8a/135_lickety-spitoo.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Spindle'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'sniper spitoo' : {
+        'Name': 'Sniper Spitoo' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/76/136_sniper_spitoo.png',
+        'FavoriteFoods' : 'Pies',
+        'Location': ['Giants Tabletops'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'monolith' : {
+        'Name': 'Monolith' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/9/91/137_monolith.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['The Bayous-W'],
+        'Metamorph':['Megalith'],
+        'morphLevel': 10,
+        'maxLevel': 26
+    },
+    'megalith' : {
+        'Name': 'Megalith' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/2/2a/138_megalith.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Vault of Tears'],
+        'Metamorph':['Paleolith' , 'Neolith'],
+        'morphLevel': 20,
+        'maxLevel': 42
+    },
+    'paleolith' : {
+        'Name': 'Paleolith' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/89/139_paleolith.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Nazcaä'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'neolith' : {
+        'Name': 'Neolith' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/3/3f/140_neolith.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Ivory Tower'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'sprog cog' : {
+        'Name': 'Sprog Cog' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/8d/141_sprog_cog.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Teeheeti'],
+        'Metamorph':['Hot Cog'],
+        'morphLevel': 15,
+        'maxLevel': 22
+    },
+    'hot cog' : {
+        'Name': 'Hot Cog' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/6/6d/142_hot_cog.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['The Barrens'],
+        'Metamorph':['Supercogductor', 'Cogdenser'],
+        'morphLevel': 28,
+        'maxLevel': 40
+    },
+    'supercogductor' : {
+        'Name': 'Supercogductor' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/f/ff/143_supercogductor.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Nazcaä'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'cogdenser' : {
+        'Name': 'Cogdenser' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/3/3b/144_cogdenser.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Jack Frosts Playground'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'tin-man' : {
+        'Name': 'Tin-Man' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d8/145_tin-man.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['The Pig Iron Plain'],
+        'Metamorph':['Iron-Man'],
+        'morphLevel': 15,
+        'maxLevel': 22
+    },
+    'iron-man' : {
+        'Name': 'Tin-Man' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/0/0f/146_iron-man.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['No Longer Mine'],
+        'Metamorph':['Steam-Man', 'Beam-Man'],
+        'morphLevel': 25,
+        'maxLevel': 38
+    },
+    'steam-man' : {
+        'Name': 'Steam-Man' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/10/147_steam-man.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Nevermore'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'beam-man' : {
+        'Name': 'Beam-Man' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/3/32/148_beam-man.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Ivory Tower'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'clinketyclank' : {
+        'Name': 'Clinketyclank' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/f/f8/149_clinketyclank.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['The Pig Iron Plain'],
+        'Metamorph':['Clinketyclank Mk. 2'],
+        'morphLevel': 12,
+        'maxLevel': 25
+    },
+    'clinketyclank mk. 2' : {
+        'Name': 'Clinketyclank Mk. 2' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/4/40/150_clinketyclank_mk._2.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['none'],
+        'Metamorph':['Clinketyclank LX', 'Clinketyclank DX'],
+        'morphLevel': 24,
+        'maxLevel': 48
+    },
+    'clinketyclank lx' : {
+        'Name': 'Clinketyclank LX' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/e/e6/151_clinketyclank_lx.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Jack Frosts Playground'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'clinketyclank dx' : {
+        'Name': 'Clinketyclank DX' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/89/152_clinketyclank_dx.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['none'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    
     'unknown' : {
         'Name': 'unknown',
         'FavoriteFoods' : 'unknown',
-        'Location': ['Smoky Foothills'],
+        'Location': ['unknown'],
         'Metamorph':'unknown',
     },
 }
