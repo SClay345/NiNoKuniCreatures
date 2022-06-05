@@ -1,7 +1,7 @@
 # Ni No Kuni Familiar API
 While playing the game I noticed there wasn't very good documentation and the info was all scattered so I decided to put it all into an API for anyone to use.
 
-**Link to project:** TBD
+**Link to project:** Example page using API :(https://sclay345.github.io/ninokunifamiliar/)
 
 ![alt tag](https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/07/ni-no-kuni-oliver-drippy-mite.jpg)
 
