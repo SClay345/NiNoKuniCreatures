@@ -1339,7 +1339,463 @@ const familiar = {
         'morphLevel': 0,
         'maxLevel': 99
     },
+    'fuddy-daddy' : {
+        'Name': 'Fuddy-Daddy' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/4/42/153_fuddy-daddy.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Nazcaä'],
+        'Metamorph':['Big Daddy'],
+        'morphLevel': 15,
+        'maxLevel': 18
+    },
+    'big daddy' : {
+        'Name': 'Big Daddy' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d9/154_big_daddy.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['none'],
+        'Metamorph':['Grand-Daddy', 'Baddy-Daddy'],
+        'morphLevel': 26,
+        'maxLevel': 50
+    },
+    'grand-daddy' : {
+        'Name': 'Grand-Daddy' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/1c/155_grand-daddy.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['none'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'baddy-daddy' : {
+        'Name': 'Baddy-Daddy' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/5/5a/156_baddy-daddy.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['none'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'lumberwood' : {
+        'Name': 'Lumberwood' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/3/38/157_lumberwood.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['No Longer Mine'],
+        'Metamorph':['Limberwood'],
+        'morphLevel': 8,
+        'maxLevel': 10
+    },
+    'limberwood' : {
+        'Name': 'Limberwood' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/de/158_limberwood.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['none'],
+        'Metamorph':['Umberwood', 'Wildwood'],
+        'morphLevel': 12,
+        'maxLevel': 18
+    },
+    'umberwood' : {
+        'Name': 'Umberwood' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/89/159_umberwood.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['none'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'wildwood' : {
+        'Name': 'Wildwood' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/a/a9/160_wildwood.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['none'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'bubbud' : {
+        'Name': 'Bubbud' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/2/2d/161_bubbud.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Ding Dong Well'],
+        'Metamorph':['Sponge Bubbud'],
+        'morphLevel': 18,
+        'maxLevel': 48
+    },
+    'sponge bubbud' : {
+        'Name': 'Sponge Bubbud' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/2/26/162_sponge_bubbud.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['The Pig Iron Plain'],
+        'Metamorph':['Lotus Bubbud', 'Tropic Bubbud'],
+        'morphLevel': 31,
+        'maxLevel': 65
+    },
+    'lotus bubbud' : {
+        'Name': 'Lotus Bubbud' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/0/0a/163_lotus_bubbud.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Winter Wonderlands-N'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'tropical bubbud' : {
+        'Name': 'Tropical Bubbud' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/b/b9/164_tropical_bubbud.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Ivory Tower'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+
+    'green buncher' : {
+        'Name': 'Green Buncher' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/e/e5/165_green_buncher.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Shimmering Sands-W'],
+        'Metamorph':['Yellow Buncher'],
+        'morphLevel': 14,
+        'maxLevel': 20
+    },
+    'yellow buncher' : {
+        'Name': 'Yellow Buncher' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/9/93/166_yellow_buncher.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Shipwreck Shore'],
+        'Metamorph':['Underripe Buncher', 'Overripe Buncher'],
+        'morphLevel': 25,
+        'maxLevel': 38
+    },
+    'underripe buncher' : {
+        'Name': 'Underripe Buncher' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/2/2e/167_underripe_buncher.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['The Genies Steps-N'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'overripe buncher' : {
+        'Name': 'Overripe Buncher' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/8/8d/168_overripe_buncher.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['none'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+
+    'napcap' : {
+        'Name': 'Napcap' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/b/b6/169_napcap.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Golden Grove'],
+        'Metamorph':['Duncecap'],
+        'morphLevel': 15,
+        'maxLevel': 55
+    },
+    'duncecap' : {
+        'Name': 'Duncecap' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/4/4c/170_duncecap.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['No Longer Mine'],
+        'Metamorph':['Madcap', 'Nightcap'],
+        'morphLevel': 25,
+        'maxLevel': 75
+    },
+    'madcap' : {
+        'Name': 'Madcap' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/79/171_madcap.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Billy Goats Bluff'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'nightcap' : {
+        'Name': 'Nightcap' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/5/5a/172_nightcap.png',
+        'FavoriteFoods' : 'Flans',
+        'Location': ['Nazcaä'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
     
+    'worker bumbler' : {
+        'Name': 'Worker Bumbler' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/9/97/173_worker_bumbler.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Golden Grove'],
+        'Metamorph':['Drone Bumbler'],
+        'morphLevel': 11,
+        'maxLevel': 46
+    },
+    'drone bumbler' : {
+        'Name': 'Drone Bumbler' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/70/174_drone_bumbler.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['The Genies Steps'],
+        'Metamorph':['Soldier Bumbler', 'Queen Bumbler'],
+        'morphLevel': 31,
+        'maxLevel': 68
+    },
+    'soldier bumbler' : {
+        'Name': 'Soldier Bumbler' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/b/b7/175_soldier_bumbler.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Skull Mountain'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'queen bumbler' : {
+        'Name': 'Queen Bumbler' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/78/176_queen_bumbler.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['None'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+
+    'whippersnapper' : {
+        'Name': 'Whippersnapper' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/75/177_whippersnapper.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Deep Dark Wood'],
+        'Metamorph':['Trapper Snapper'],
+        'morphLevel': 18,
+        'maxLevel': 32
+    },
+    'trapper snapper' : {
+        'Name': 'Trapper Snapper' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/0/05/178_trapper_snapper.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['The Pig Iron Plain'],
+        'Metamorph':['Snaptrap', 'Claptrap'],
+        'morphLevel': 33,
+        'maxLevel': 55
+    },
+    'snaptrap' : {
+        'Name': 'Snaptrap' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c8/179_snaptrap.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Russet Island'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'claptrap' : {
+        'Name': 'Claptrap' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/e/e0/180_claptrap.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Billy Goats Bluff'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+
+
+    'sillymander' : {
+        'Name': 'Sillymander' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c2/181_sillymander.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Vault of Tears'],
+        'Metamorph':['Slamander'],
+        'morphLevel': 13,
+        'maxLevel': 40
+    },
+    'slamander' : {
+        'Name': 'Slamander' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/e/e6/182_slamander.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Road to Ruin'],
+        'Metamorph':['Pyromander', 'Petramander'],
+        'morphLevel': 29,
+        'maxLevel': 58
+    },
+    'petramander' : {
+        'Name': 'Petramander' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/11/184_petramander.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Nazcaä'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'pyromander' : {
+        'Name': 'Pyromander' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/1d/183_pyromander.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['None'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+
+
+
+    
+    'oroboros' : {
+        'Name': 'Oroboros' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/b/bb/185_oroboros.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Rolling Hills'],
+        'Metamorph':['Chloroboros'],
+        'morphLevel': 12,
+        'maxLevel': 45
+    },
+    'chloroboros' : {
+        'Name': 'Chloroboros' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c0/186_chloroboros.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Vault of Tears'],
+        'Metamorph':['Obscuroboros', 'Fluoroboros'],
+        'morphLevel': 34,
+        'maxLevel': 68
+    },
+    'obscuroboros' : {
+        'Name': 'Obscuroboros' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/e/e6/187_obscuroboros.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Vault of Tears'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'fluoroboros' : {
+        'Name': 'Fluoroboros' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/7/7f/188_fluoroboros.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Billy Goats Bluff'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+
+
+
+    'incy' : {
+        'Name': 'Incy' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/1/16/189_incy.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Golden Grove'],
+        'Metamorph':['Wincy'],
+        'morphLevel': 12,
+        'maxLevel': 48
+    },
+    'wincy' : {
+        'Name': 'Wincy' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/c/c5/190_wincy.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Russet Island'],
+        'Metamorph':['Web Master', 'Weaver Diva'],
+        'morphLevel': 33,
+        'maxLevel': 63
+    },
+    'web Master' : {
+        'Name': 'Web Master' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/e/e8/191_web_master.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Spindle'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'weaver diva' : {
+        'Name': 'Weaver Diva' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/9/9c/192_weaver_diva.png',
+        'FavoriteFoods' : 'Sundaes',
+        'Location': ['Nazcaä'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+
+
+
+    'lagoon naiad' : {
+        'Name': 'Lagoon Naiad' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/5/5d/193_lagoon_naiad.png',
+        'FavoriteFoods' : 'Cakes',
+        'Location': ['Friday Island'],
+        'Metamorph':['Sea Naiad'],
+        'morphLevel': 14,
+        'maxLevel': 42
+    },
+    'sea naiad' : {
+        'Name': 'Sea Naiad' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/d/d0/194_sea_naiad.png',
+        'FavoriteFoods' : 'Cakes',
+        'Location': ['Shipwreck Shore'],
+        'Metamorph':['Lesser Spotted Naiad', 'Greater Naiad'],
+        'morphLevel': 34,
+        'maxLevel': 65
+    },
+    'lesser spotted naiad' : {
+        'Name': 'Lesser Spotted Naiad' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/b/bb/195_lesser_spotted_naiad.png',
+        'FavoriteFoods' : 'Cakes',
+        'Location': ['The Sea: The Spring Realm'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'greater naiad' : {
+        'Name': 'Greater Naiad' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/4/4b/196_greater_naiad.png',
+        'FavoriteFoods' : 'Cakes',
+        'Location': ['None'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+
+
+    
+    'airhead' : {
+        'Name': 'Airhead' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/2/20/197_airhead.png',
+        'FavoriteFoods' : 'Cakes',
+        'Location': ['The Sea: South of the Summerlands'],
+        'Metamorph':['Beachhead'],
+        'morphLevel': 18,
+        'maxLevel': 50
+    },
+    'beachhead' : {
+        'Name': 'Beachhead' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/0/0e/198_beachhead.png',
+        'FavoriteFoods' : 'Cakes',
+        'Location': ['Shipwreck Shore'],
+        'Metamorph':['Fountainhead', 'Thunderhead'],
+        'morphLevel': 35,
+        'maxLevel': 60
+    },
+    'fountainhead' : {
+        'Name': 'Fountainhead' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/a/a9/199_fountainhead.png',
+        'FavoriteFoods' : 'Cakes',
+        'Location': ['The Sea: North of Winter Isles'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+    'thunderhead' : {
+        'Name': 'Thunderhead' ,
+        'image' : 'https://static.wikia.nocookie.net/ninokuni/images/4/44/200_thunderhead.png',
+        'FavoriteFoods' : 'Cakes',
+        'Location': ['The Sea: Southwest of the Spring Realm'],
+        'Metamorph':['None'],
+        'morphLevel': 0,
+        'maxLevel': 99
+    },
+
+
+
+
+
+
     'unknown' : {
         'Name': 'unknown',
         'FavoriteFoods' : 'unknown',
